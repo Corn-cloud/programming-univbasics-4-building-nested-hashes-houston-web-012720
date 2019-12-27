@@ -14,10 +14,10 @@ def monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
-  {:railroads => {:pieces => 4, :rent_in_dollars => {[:one_piece_owned,
-      :two_pieces_owned,
-      :three_pieces_owned,
-      :four_pieces_owned]
+  {:railroads => {:pieces => 4, :rent_in_dollars => {:one_piece_owned => 45,
+      :two_pieces_owned => 70,
+      :three_pieces_owned => 23,
+      :four_pieces_owned => 32
     
   }}}
   
