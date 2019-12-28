@@ -21,7 +21,8 @@ def monopoly_with_third_tier
       
     
   },
-  :names => {:read_railroads =>{
+  :names => { :read_railroads => 
+       {
         "mortgage_value"=>"$100"
       },
       :pennsylvania_railroad=>
@@ -36,6 +37,7 @@ def monopoly_with_third_tier
       {
         "mortgage_value"=>"$800" }
   }
+}
   
   
   # When you start writing the implementation for this method, copy the Hash
