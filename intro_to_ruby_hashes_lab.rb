@@ -21,7 +21,7 @@ def monopoly_with_third_tier
       
     
   },
-  :names => true}}
+  :names => {
   
   
   # When you start writing the implementation for this method, copy the Hash
