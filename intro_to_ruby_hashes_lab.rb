@@ -19,7 +19,7 @@ def monopoly_with_third_tier
       :three_pieces_owned => 100,
       :four_pieces_owned => 200,
       },
-  :names => {:first_railroads => "true", :second_railroads => "flase", :third_railroads => "truth", :fourth_railroads => "lie"}}}
+  :names => {:reading_railroads => {}, :second_railroads => "flase", :third_railroads => "truth", :fourth_railroads => "lie"}}}
   
   
   # When you start writing the implementation for this method, copy the Hash
